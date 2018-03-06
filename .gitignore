@@ -51,3 +51,7 @@ fabric.properties
 
 .DS_Store
 *.iml
+
+
+#Jupyter files
+.ipynb_checkpoints/
