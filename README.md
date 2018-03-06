@@ -11,17 +11,22 @@ The talk is targeted towards people who use or want to start using Python for th
 
 ## How to run the slides
 
-Follow the instructions on the [Jupyter Project homepage](http://jupyter.org/install.html) to install the Jupyter Notebook. 
+Install Jupyter as described on the [Jupyter Project homepage](http://jupyter.org/install.html):
+
+```bash
+python3 -m pip install --upgrade pip
+python3 -m pip install jupyter
+```
 
 You will also have to install nbconvert:
 
-```python3
+```bash
 pip install nbconvert
 ```
 
 Now you can run the slides with:
 
-```sh
+```bash
 jupyter nbconvert Improve\ your\ Python\ sctipts.ipynb --to slides --post serve
 ```
 
@@ -33,7 +38,7 @@ You can use Jupyter notebook to edit the slides.
 
 Start Jupyter notebook with
 
-```sh
+```bash
 jupyter notebook
 ```
 
